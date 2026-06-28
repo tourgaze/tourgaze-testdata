@@ -17,17 +17,30 @@ report describing it.
 
 Supported formats: **FIT, GPX, TCX, KMZ/KML**.
 
-## ⚠️ Before you upload — privacy
+## ⚠️ Before you upload — privacy (read this)
 
 Ride files contain **your GPS track** — including, usually, where you started
-(often your home). Anything pushed here is **public and permanent**.
+and finished (often your home). **Anything pushed to this repo is public and
+permanent**, and that's true for *every* contributor, not just the maintainers.
 
-- Prefer a ride that **doesn't start or end at home** (a holiday or away ride).
-- Or trim the start/end of the track before uploading.
-- Only upload files you're comfortable sharing publicly.
+**Never push a ride that reveals your home — or anything else sensitive — to
+this public repo.** Once it's in the git history it cannot be truly taken back.
 
-If a file is sensitive but needed to reproduce a bug, say so in the issue and it
-can be shared privately instead.
+If your problem ride starts/ends at home or is otherwise sensitive, **send it
+privately instead** — do **not** open a public PR with it:
+
+1. Open an [issue](https://github.com/tourgaze/tourgaze/issues/new) describing the
+   bug, and add the note: **"file is sensitive — needs a private channel."**
+   Do **not** attach the file.
+2. You'll get a private way to send it (e.g. email) so it never becomes public.
+
+Only push a file publicly here if **all** of these hold:
+
+- it **doesn't start or end at home** (a holiday / away ride is ideal — e.g. the
+  Mallorca samples below), **or** you've trimmed the sensitive start/end, and
+- you're genuinely comfortable with it being public forever.
+
+When in doubt, send it privately.
 
 ## Reference samples
 
